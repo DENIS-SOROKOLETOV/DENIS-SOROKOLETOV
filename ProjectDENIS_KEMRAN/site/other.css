@@ -1,3 +1,6 @@
+body{
+    font: Montserrat;
+}
 .glyphicon-spin, a .glyphicon-spin {
     display: inline-block
 }

@@ -1,4 +1,7 @@
-body{
+@font-face {
+    font-family: 'Montserrat';
+    src: url(site/Montserrat-Regular.ttf);
+}body{
     font-family: Montserrat;
 }
 .glyphicon-spin, a .glyphicon-spin {

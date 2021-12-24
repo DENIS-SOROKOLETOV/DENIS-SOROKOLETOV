@@ -1,0 +1,97 @@
+.slider{
+	position: relative;
+	min-width: 0;
+}
+.slider1{
+	position: relative;
+	min-width: 0;
+}
+
+.slick_list{
+	overflow: hidden;
+}
+.slick-track{
+	display: flex;
+}
+
+.slick-arrow {
+    width: 16px;
+    height: 32px;
+    border: 0;
+    box-shadow: none;
+    font-size: 0;
+    outline: 0
+}
+
+.slider .slick-arrow{
+	position: absolute;
+	top:50%;
+	z-index: 10;
+}
+
+.slider .slick-arrow.slick-prev{
+	left: 750px;
+}
+.slider .slick-arrow.slick-next{
+	right: 1px;
+}
+
+@media(max-width: 1099px){
+
+	.slider .slick-arrow{
+	position: absolute;
+	top:50%;
+	z-index: 10;
+}
+	.slider .slick-arrow.slick-prev{
+	left:730px;
+}
+.slider .slick-arrow.slick-next{
+	right: 1px;
+}
+}
+
+@media(max-width: 991px){
+
+	.slider .slick-arrow{
+	position: absolute;
+	top:90%;
+	z-index: 10;
+}
+	.slider .slick-arrow.slick-prev{
+	left: 300px;
+}
+.slider .slick-arrow.slick-next{
+	right: 300px;
+}
+}
+
+@media(max-width: 767px){
+
+	.slider .slick-arrow{
+	position: absolute;
+	top:90%;
+	z-index: 10;
+}
+	.slider .slick-arrow.slick-prev{
+	left: 200px;
+}
+.slider .slick-arrow.slick-next{
+	right: 200px;
+}
+}
+
+@media(max-width: 464px){
+
+	.slider .slick-arrow{
+	position: absolute;
+	top:98%;
+	z-index: 10;
+}
+	.slider .slick-arrow.slick-prev{
+	left: 0px;
+}
+.slider .slick-arrow.slick-next{
+	right: 0px;
+}
+}

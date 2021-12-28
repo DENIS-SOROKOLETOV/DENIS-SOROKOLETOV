@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Задания WEB</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<script defer src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script defer src="calc.js"></script> 
+		<script defer src="big_calc.js"></script> 
+		<script defer src="slick.min.js"></script>
+		<script defer src="slide.js"></script>
+		<script defer src="form.js"></script>
+		<script defer src="https://cdn.jsdelivr.net/npm/slapform"></script>
+    	<script>integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header class="navbar navbar-default">
+			<div class = "container-fluid">
+				<menu class="navbar-header">
+				<div class = "logo navbar-brand">
+					<img src="Логотип.png">
+					<h1>ЗАДАНИЯ WEB</h1>
+				</div>
+				
+				</menu>
+			<ul class = "menu navbar-nav">
+				<li><a href="index.html" title="Главная">ГЛАВНАЯ</a></li>
+				<li ><a href="./about/about.html" title="О нас">О НАС</a></li>
+				<li ><a href="./contacts.html" title="Контакты">КОНТАКТЫ</a></li>
+			</ul>
+			</div>
+		</header>
+		<nav class = "col-md-7">
+			<div class="linkbox col-md-9 ">
+
+				<div class="links col-md-3">
+					<ol>
+						<li><a href="http://www.youtube.com">Ссылка 1</a></li>
+						<li><a href="https://www.youtube.com">Ссылка 2</a></li>
+						<li><a href="ftp://ftp.example.com/file.bin">Ссылка 3</a></li>
+						<li><a href="ftp://user:pas123@ftp.example.com/file.bin">Ссылка 4</a></li>
+						<li><a href="https://html5book.ru/hyperlinks-in-html/#:~:text=%D0%B2%D0%B8%D0%B4%D0%B8%D0%BC%D1%8B%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F.-,%D0%90%D0%B4%D1%80%D0%B5%D1%81%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B0%D1%81%D1%82%D1%8C,-%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8E%20%D0%BD%D0%B5">Ссылка 5</a></li>
+						<li><a href="#end">Ссылка 6</a></li>
+						<li><a href="http://www.youtube.com?x=10&y=12">Ссылка 7</a></li>
+					</ol>
+				</div>
+				<div class="links col-md-3">
+					<ol >
+						<li value="8">
+							<ul>
+								<li><a href="index.html" title="Главная">Главная</a></li>
+								<li><a href="./about/about.html" title="О нас">О нас</a></li>
+								<li><a href="./contacts.html" title="Контакты">Контакты</a></li>
+							</ul>
+						</li>
+						<li><a title="Ссылка без href">Ссылка 9</a></li>
+						<li><a title="Ссылка с пустым href" href="">Ссылка 10</a></li>
+						<li><a href="http://www.youtube.com" rel="nofollow">Ссылка 11</a></li>
+						<li><a href="http://www.youtube.com" rel="nofollow">Ссылка 12</a></li>
+						<li><a href="">Ссылка 13</a></li>
+						<li><a href=""><img src="./image.jpg" alt="Ссылка 14" width="100%"></a></li>
+					</ol>
+				</div>
+				<div class="links col-md-3">
+					<ol>
+						<li value="15">
+							<img src="./image.jpg" alt="Ссылка 15" width="100%" usemap="#maps">
+							<map name="maps">
+								<area shape="rect" coords="300,5,600,20" href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BF%D0%B5%D1%81%D1%82%D0%BE%D0%BA">
+								<area shape="circle" coords="960, 590, 200" href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BF%D0%B5%D1%81%D1%82%D0%BE%D0%BA">
+							</map>
+						</li>
+						<li><a href="./contacts.html">Ссылка 16</a></li>
+						<li><a href="./about/about.html">Ссылка 17</a></li>
+						<li><a href="../demo.html">Ссылка 18</a></li>
+						<li><a href="../../form.html">Ссылка 19</a></li>
+						<li><a href="">Ссылка 20</a></li>
+						<li><a href="" id ="end">Ссылка 21</a></li>
+					</ol>
+				</div>
+				</div>
+
+				<div class="form col-md-9">
+				<form action="/" method="POST">
+
+      <label>
+        Имя:<br />
+        <input name="field-name-1"
+          value="Денис" />
+      </label><br />
+
+      <label>
+        email:<br />
+        <input name="field-email"
+          value="test@example.com"
+          type="email" />
+      </label><br />
+
+      <label>
+        Дата рождения:<br />
+        <input name="field-date"
+          value="2003-01-10"
+          type="date" />
+      </label><br />
+
+      Пол:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        Мужской</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Женский</label><br />
+
+		Количество конечностей:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-2" value="Значение1" />
+        1</label>
+      <label><input type="radio"
+        name="radio-group-2" value="Значение2" />
+        2</label>
+         <label><input type="radio"
+        name="radio-group-2" value="Значение3" />
+        3</label>
+         <label><input type="radio"
+        name="radio-group-2" value="Значение4" />
+        4</label><br />
+      <label>
+
+      <label>
+        Сверхспособности:
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Значение1">Бессмертие</option>
+          <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
+          <option value="Значение3" selected="selected">Левитация</option>
+        </select>
+      </label><br/>
+
+        <label>
+        Многострочное текстовое поле:<br />
+        <textarea name="field-name-2">Родился тогда-то где-то</textarea>
+      </label><br/>
+
+      Чекбокс:<br />
+      <label><input type="checkbox" checked="checked"
+        name="check-1" />
+        С контрактом ознакомлен</label><br />
+		Кнопка отправить:
+      <input type="submit" value="Отправить" />
+    </form>
+				</div class="">		
+				<div class=" table col-md-8">
+					<table title="Таблица" class = "col-md-4">
+					<caption>Таблица</caption>
+					<tr class = "odd">
+						<td colspan="3">Ячейка 11 объединенная с 12 и 13</td>
+					</tr>
+					<tr class = "even">
+						<td>Ячейка 21</td>
+						<td>Ячейка 22</td>
+						<td>Ячейка 23</td>
+					</tr>
+					<tr class = "odd">
+						<td>Ячейка 31</td>
+						<td>Ячейка 32</td>
+						<td>Ячейка 33</td>
+					</tr>
+					<tr class = "even">
+						<td>Ячейка 41</td>
+						<td>Ячейка 42</td>
+						<td>Ячейка 43</td>
+					</tr>
+					<tr class = "odd">
+						<td>Ячейка 51</td>
+						<td>Ячейка 52</td>
+						<td>Ячейка 53</td>
+					</tr>
+					</table>
+				</div>		
+
+				<div class="order col-md-9">
+					<h1>Задание 5</h1>
+					<form class="calc_form">
+                	<div class="calc">
+                	Калькулятор стоимости
+                	<input name="price" type="text" class="form-control" id="price" placeholder="Введите цену">         
+                	<input name="count" type="text" class="form-control" id="count" placeholder="Введите количество">         
+                	<button id="calculateResult" type="button" class="btn btn-dark container" onclick="return click1();">Узнать</button> 
+               	 	</div>
+           			</form>   
+           	 		Результат: 
+        			<div class="result" id="result"></div>
+				</div>	
+
+				<div id="big_order" class="col-md-8">
+					<h1>Задание 6</h1>
+				<form class="container row">
+                <div class="form-group">
+                    <label>Калькулятор стоимости</label>
+
+                        <select name="myselect" class="form-control">
+                            <option value="1" selected>Coca Cola 0.5</option>
+                            <option value="2">Coca Cola 1.0</option>
+                            <option value="3">Coca Cola 2.0</option>
+                        </select> 
+
+                        <div class="pis d-none" id="myradios">
+
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="radio1" name="myradio" value="r1" checked>
+                                <label class="custom-control-label" for="radio1">В стекле</label>
+                            </div>
+                            
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="radio2" name="myradio" value="r2">
+                                <label class="custom-control-label" for="radio2">В банке</label>
+                            </div>
+                            
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="radio3" name="myradio" value="r3">
+                                <label class="custom-control-label" for="radio3">В канистре</label>
+                            </div>
+                    
+                        </div>
+                        <div id="mycheck" class="d-none">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="check" name="mycheck">
+                                <label class="custom-control-label" for="check">Импорт</label>
+                            </div>
+                        </div>
+                    <input name="count1" type="text" class="form-control" id="count" placeholder="Введите количество">         
+                </div>
+              
+            </form>   
+            Итоговая цена: 
+        <div class="result" id="result1"></div>
+				</div>	
+
+				<div class="gallery col-md-10">
+					<h1>Задание 7</h1>
+					 <div class="slider" style="margin-top: 15px;">
+					 	<div class="slider__item">
+					 		<div><img src="image1.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image2.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image3.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image4.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image5.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image6.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image7.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image8.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image9.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image10.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image11.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image12.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image13.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image14.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image15.png" alt="no!"></div>
+					 	</div>
+					 	<div class="slider__item">
+					 		<div><img src="image16.png" alt="no!"></div>
+					 	</div>
+
+    				 </div>
+				</div>	
+				<div class="form2">
+				<div class="row">
+          <div class="col-md-8 col-md-offset-2"> 
+            <button type="submit" class="btn" id="popup"  ><i class="fa fa-check" aria-hidden="true" ></i> <h5>Let's go</h5> </button>
+            <div class="popup-overlay"><!-- //оверлей - отображение формы на затемненном фоне -->
+              <div class="popWindow subscribe_window"><!-- //основное окно формы Подписки -->
+                <p class="subcsribe-text">Обратная связь</p>
+                <form method="POST" class="subscribe-form" autocomplete="off">
+                  <div>
+                    <input type="text" id="name-subscribe" name="name" placeholder="Имя*" required>
+                    <label for="name-subscribe"></label>
+                  </div>
+
+                  <div>
+                    <input type="email" id="email-subscribe" name="email" placeholder="Email*" required>
+                    <label for="email-subscribe"></label>
+                  </div>
+      
+                  <div class="md">
+                       <textarea placeholder="О себе"></textarea>
+                  </div>
+      
+                  <div class="dacc">
+                    Согласие с политикой обработки персональных данных <span>*</span><input type="checkbox"  name="consent" id="accept" required>  
+                  </div>
+                  <div class="aligncenter">
+                    <button type="submit" class="btn" id="subscribe" ><i class="fa fa-check" aria-hidden="true"></i> Отправить!</button>
+                  </div>
+                  <div class="req-fields"><sup>*</sup> Поля, обязательные для заполнения</div>
+                </form>
+                
+                <div class="close-btn">&times;</div>
+              </div><!-- /subscribe_window -->
+       
+              <div class="popWindow thank_you_window"><!-- //благодарственное окно после успешной отправки формы -->
+                <p class="thank_you_title">Успешно!</p>
+                <p class="thank_you_body">Дальнейшие инструкции отправлены Вам на почту</p>
+                <div class="close-btn">&times;</div>
+              </div><!-- /thank_you_window -->
+       
+            </div><!-- /popup-overlay -->
+       
+          </div>
+        </div>
+				</div>		
+		</nav>
+		<footer class = "container-fluid">
+			
+		</footer>
+	</body>
+</html>
